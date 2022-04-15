@@ -1,0 +1,23 @@
+@import './menu.css';
+
+.header {
+  block-size: 43.3rem;
+  background: url('../images/mobile/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-block-start: 2.66rem;
+}
+
+.changeColor-header {
+  background: var(--black);
+}
+
+h1 {
+  margin-block-start: 10.86rem;
+  padding: 1.6rem;
+  font: var(--headline1Mobile);
+  color: var(--white);
+  text-transform: uppercase;
+  border: 2px solid var(--white);
+}
