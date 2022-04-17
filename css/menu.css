@@ -17,6 +17,10 @@
   padding: 0;
 }
 
+.is-close .icon-hamburger::before {
+  content: "\e900";
+}
+
 .nav-toggle i {
   vertical-align: middle;
 }
