@@ -21,3 +21,20 @@ h1 {
   text-transform: uppercase;
   border: 2px solid var(--white);
 }
+
+@media screen and (min-width: 1024px){
+  .header {
+    background: url('../images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-block-start: 4.26rem;
+  }
+
+  h1 {
+    font: var(--headline1Desktop);
+    margin-block-start: 8.3rem;
+    padding: 2.66rem;
+    inline-size: 43.3rem;
+  }
+}

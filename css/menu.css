@@ -51,3 +51,49 @@
   text-transform: uppercase;
   color: var(--white);
 }
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    block-size: 2.6rem;
+  }
+
+  .links {
+    block-size: auto;
+    inline-size: auto;
+    position: static;
+    flex-direction: row;
+    align-items: center;
+    background: transparent;
+  }
+
+  .links li {
+    position: relative;
+  }
+
+  .links li a {
+    font: var(--text);
+    text-transform: capitalize;
+  }
+
+  .links li:hover::after {
+    content: '';
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: 2rem;
+    inline-size: 1.6rem;
+    block-size: 2px;
+    background: var(--white);
+    transform: translateX(-50%);
+  }
+
+  .logo-image {
+    inline-size: 12.8rem;
+    block-size: 2.13rem;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+}
