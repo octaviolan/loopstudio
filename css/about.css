@@ -1,0 +1,29 @@
+.about {
+  margin-block-start: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.about-image img {
+  vertical-align: middle;
+}
+
+.about-description {
+  inline-size: 18.6rem;
+  margin: 0 auto;
+}
+
+.about-description h2 {
+  font: var(--headline2MobileDesktop);
+  text-transform: uppercase;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 1.06rem;
+}
+
+.about-description p {
+  text-align: center;
+  color: var(--veryDarkGray);
+  margin: 0;
+}

@@ -2,6 +2,7 @@
 @import './fonts.css';
 @import './wrapper.css';
 @import './header.css';
+@import './about.css';
 
 :root {
   /* Fonts */
@@ -27,5 +28,4 @@ body {
   background: var(--white);
   color: var(--black);
   margin: 0;
-
 }
