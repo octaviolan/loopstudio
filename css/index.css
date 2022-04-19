@@ -3,6 +3,7 @@
 @import './wrapper.css';
 @import './header.css';
 @import './about.css';
+@import './creations.css';
 
 :root {
   /* Fonts */
