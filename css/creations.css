@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  margin-block-end: 2.26rem;
 }
 
 .creations .cards .card {
@@ -65,4 +66,23 @@
 
 .creations .fisheye {
   background: url('../images/mobile/image-fisheye.jpg');
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  inline-size: 10.46rem;
+  box-sizing: border-box;
+  padding: 0.86rem 2.7rem;
+  font: var(--button);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: transparent;
+  border: 1px solid var(--black);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--white);
+  background: var(--black);
 }

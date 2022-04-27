@@ -17,6 +17,7 @@
   --headline2Desktop: lighter 3.2rem/3.2rem var(--secondaryFontFamily);
   --headline3Mobile: lighter 1.6rem/1.6rem var(--secondaryFontFamily);
   --menu: lighter 1.6rem/1.66rem var(--secondaryFontFamily);
+  --button: normal 0.93rem/0.93rem var(--baseFontFamily);
   /* Colors */
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
