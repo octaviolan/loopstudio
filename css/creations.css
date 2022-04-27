@@ -86,3 +86,51 @@
   color: var(--white);
   background: var(--black);
 }
+
+@media screen and (min-width: 1024px){
+  .creations .cards{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 17rem);
+    grid-template-rows: repeat(2, 30rem);
+    gap: 2rem;
+  }
+
+  .creations .cards .card {
+    block-size: auto;
+    padding: 2.66rem;
+    font: var(--headline2MobileDesktop);
+  }
+
+  .creations .earth {
+    background: url('../images/desktop/image-deep-earth.jpg');
+  }
+
+  .creations .arcade {
+    background: url('../images/desktop/image-night-arcade.jpg');
+  }
+
+  .creations .soccer {
+    background: url('../images/desktop/image-soccer-team.jpg');
+  }
+
+  .creations .grid {
+    background: url('../images/desktop/image-grid.jpg');
+  }
+
+  .creations .vr {
+    background: url('../images/desktop/image-from-above.jpg');
+  }
+
+  .creations .borealis {
+    background: url('../images/desktop/image-pocket-borealis.jpg');
+  }
+
+  .creations .curiosity {
+    background: url('../images/desktop/image-curiosity.jpg');
+  }
+
+  .creations .fisheye {
+    background: url('../images/desktop/image-fisheye.jpg');
+  }
+}
