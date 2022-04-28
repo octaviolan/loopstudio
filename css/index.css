@@ -4,6 +4,7 @@
 @import './header.css';
 @import './about.css';
 @import './creations.css';
+@import './footer.css';
 
 :root {
   /* Fonts */

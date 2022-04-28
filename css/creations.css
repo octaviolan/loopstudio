@@ -1,5 +1,5 @@
 .creations {
-  margin-block-start: 6.4rem;
+  margin-block: 6.4rem;
 }
 
 .creations h2 {
@@ -72,6 +72,7 @@
   display: block;
   margin: 0 auto;
   inline-size: 10.46rem;
+  block-size: 2.66rem;
   box-sizing: border-box;
   padding: 0.86rem 2.7rem;
   font: var(--button);
@@ -88,12 +89,31 @@
 }
 
 @media screen and (min-width: 1024px){
+  .creations {
+    margin-block: 12.26rem;
+    display: grid;
+    grid-template-columns: repeat(2, 37rem);
+    grid-template-rows: 8.5rem 62rem;
+  }
+
+  .creations h2 {
+    font: var(--headline2Desktop);
+    text-align: start;
+    margin: 0;
+  }
+
   .creations .cards{
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(4, 17rem);
     grid-template-rows: repeat(2, 30rem);
     gap: 2rem;
+  }
+
+  .button {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    margin: 0;
+    justify-self: end;
   }
 
   .creations .cards .card {
