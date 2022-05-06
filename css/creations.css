@@ -120,6 +120,21 @@
     block-size: auto;
     padding: 2.66rem;
     font: var(--headline2MobileDesktop);
+    cursor: pointer;
+    position: relative;
+  }
+
+  .creations .cards .card:hover span{
+    position: relative;
+    z-index: 10;
+    color: var(--black);
+  }
+
+  .creations .cards .card:hover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.75);
   }
 
   .creations .earth {
